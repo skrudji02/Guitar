@@ -1,0 +1,38 @@
+{% extends 'magazz/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<title>About us</title>
+    <div class="why">Почему выбирают «Мьюз»</div>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="picture1"><img calss="picture" src="{% static 'images/graf.png' %}" alt="graf"></div>
+      </div>
+      <div class="col">
+        <div class="head">Первый результат через 2 месяца!</div>
+        <div class="str">Самый главный источник драйва и устремленности в занятиях - это <br> результат. Первый результат, который можно показать, которым можно <br> гордиться - это неиссякаемый источник энергии, подталкивающий к <br> дальнейшему развитию.</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="picture2"><img calss="picture" src="{% static 'images/pig.png' %}" alt="graf"></div>
+      </div>
+      <div class="col">
+        <div class="head">Низкая стоимость обучения!</div>
+        <div class="str">Самые скромные расценки равные одному билету в кино всего от 300 <br> рублей за час занятия. Минимум затрат для семейного бюджета и <br> максимальный эффект в обучение.</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="picture1"><img calss="picture" src="{% static 'images/pc.png' %}" alt="graf"></div>
+      </div>
+      <div class="col">
+        <div class="head">Новые технологии для образования!</div>
+        <div class="str">Дополнительные занятия дома на компьютере, возможность посетить студию <br> звукозаписи, записать свои первые результаты на микрофон, поделиться ими <br> с друзьями - это простой и эффективный способ превратить рутинную <br> программу в увлекательную игру.</div>
+      </div>
+    </div>
+{% endblock %}

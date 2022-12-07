@@ -1,0 +1,265 @@
+/* Base */
+html {
+  overflow-x: hidden; }
+
+body {
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #989898; }
+
+::-moz-selection {
+
+  color: #fff; }
+
+::selection {
+  color: #fff; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    text-decoration: none; }
+/*----------------------------------------------------------*/
+
+/* Navbar */
+.site-navbar {
+  margin-bottom: 0px;
+  z-index: 1999;
+  position: absolute;
+  width: 100%;
+  padding-left:35%;
+font-size: 25px;}
+  .site-navbar .container-fluid {
+    padding-left: 7rem;
+    padding-right: 7rem; }
+    @media (max-width: 991.98px) {
+      .site-navbar .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .site-navbar .site-navigation.border-bottom {
+    border-bottom: 1px solid #f3f3f4 !important; }
+  .site-navbar .site-navigation .site-menu {
+    margin-bottom: 0; }
+    .site-navbar .site-navigation .site-menu .active {
+
+      display: inline-block;
+      padding: 0px 20px; }
+    .site-navbar .site-navigation .site-menu a {
+      text-decoration: none !important;
+      display: inline-block; }
+    .site-navbar .site-navigation .site-menu > li {
+      display: inline-block; }
+      .site-navbar .site-navigation .site-menu > li > a {
+        padding: 5px 20px;
+        color: #fff;
+        display: inline-block;
+        text-decoration: none !important;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;}
+/*------------------------------------------------------------------------------------*/
+
+/*header img*/
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+  .bgimg, .bgimg .container .row {
+    height: 500px; }
+  .bgimg:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1; }
+  .bgimg .lead {
+    color: #fff; }
+  .bgimg > .container {
+    z-index: 2;
+    position: relative; }
+  .bgimg h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 0;
+    font-weight: bold; }
+    @media (max-width: 991.98px) {
+      .bgimg h2 {
+        font-size: 2rem; } }
+  .bgimg a {
+    color: #fff;
+    text-decoration: underline; }
+    .bgimg a:hover {
+      text-decoration: none; }
+/*------------------------------------------------------------------------------------*/
+
+
+
+.container-futer{
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+
+
+
+
+.text_header{
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 116px;
+
+
+  color: #FBF7F7;
+}
+
+.text_header_1{
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+
+
+  color: #FFFFFF;
+}
+
+.text1{
+  padding-top: 5%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.muze{
+  padding-top: 2%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.strPicture1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #181616;
+}
+
+
+.strPicture2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #181616;
+}
+
+.strPicture3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #181616;
+}
+
+.col{
+  padding-left: -22%;
+}
+
+
+.site-section{
+  padding-top: 8%;
+}
+
+.footer-section{
+  padding-top: 15%;
+
+}
+
+.footer-color{
+  padding-bottom: 5%;
+  background: #D9D9D9;
+}
+
+.foter_text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.padding_text{
+  padding-top: 15%;
+  padding-left: 15%;
+  padding-right: 40%;
+}
+
+.phone{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.padding_phone{
+  padding-right: 20%;
+  padding-top: 10%;
+  padding-left: 40%;
+}
+
+.padding_button{
+  padding-top: 10%;
+}
+
+.button3{
+  background: #97AD95;
+  height:120px;
+  width:400px;
+  border-radius: 35px;
+}
+
+.button3:hover{
+  background:#a1bc9e;
+}

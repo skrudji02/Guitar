@@ -1,0 +1,40 @@
+{% extends 'magazz/base.html' %}
+
+
+{% block content %}
+<title>Contact</title>
+    <div class="heading">Наши контакты </div>
+
+    <div class="row mx-md-n5">
+      <div class="col px-md-5">
+          <div class="header">Наши адреса:</div>
+          <div class="item">Новочеркасск
+              г. Новочеркасск, <br> Атаманская улица, 42Б <br>
+              Телефон: +7 (905) 611-31-30 <br>
+              Электронная почта: skrudji02@mail.ru
+          </div>
+      </div>
+     <div class="col px-md-5"><p><div class="write_me">Написать нам:</div></p>
+         <form method = "POST">
+              {% csrf_token %}
+             <div class="container">
+                <div class="padding_textarea"><p><textarea name="textarea" class="textarea" rows="6" cols="50"></textarea></p></div>
+                <div class="enter"><p><input class="go" type="submit" onclick="massage()"></p></div>
+             </div>
+             {% if request.user.is_authenticated %}
+              <script>
+                function massage(){
+                  alert("Нажмите 'ок' чтобы отправить сообщение")
+                }
+              </script>
+             {% else %}
+             <script>
+                function massage(){
+                  alert("Авторизируйтесь для отправки сообщения")
+                }
+             </script>
+             {% endif %}
+         </form>
+     </div>
+  </div>
+{% endblock %}

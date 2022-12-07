@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="styleSheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+
+<form  method="post">
+    {% csrf_token %}
+    <main>
+        <div class="row">
+            <div class="colm-form">
+                <div class="form-container">
+                    <input type="text" name="username" class="form-input" autofocus required id="id_username" placeholder="User name"></p>
+                    <div class="form-error"></div>
+
+                     <input type="email" name="email" class="form-input" required id="id_email" placeholder="Email address"></p>
+                     <div class="form-error"></div>
+
+                    <input type="password" name="password1" class="form-input" required id="id_password1" placeholder="Password"></p>
+                    <div class="form-error"></div>
+
+                    <input type="password" name="password2" class="form-input" required id="id_password2" placeholder="Password"></p>
+                    <div class="form-error"></div>
+
+                    <button type="submit" class="btn-login">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</form>
+
+
+</body>
+</html>

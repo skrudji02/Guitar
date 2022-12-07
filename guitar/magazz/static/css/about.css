@@ -1,0 +1,56 @@
+
+.why{
+   padding-top: 5%;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 96px;
+   line-height: 116px;
+   text-align: center;
+
+    color: #000000;
+  }
+
+.head{
+  padding-top: 10%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #000000;
+}
+
+.str{
+  padding-top: 5%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  white-space: nowrap;
+  color: #000000;
+}
+
+.picture1{
+  padding-left: 40%;
+  padding-top: 65%;
+}
+
+.picture2{
+  padding-left: 40%;
+  padding-top: 60%;
+}
+
+
+
+
+
+

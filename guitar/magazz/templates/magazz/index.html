@@ -1,0 +1,31 @@
+{% extends 'magazz/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<title>Home</title>
+<p class="text1">Уникальная программа образования <wbr>«Muze»</p>
+    <div class=" text-center">
+    <p class="muze">«Мьюз» - новая ступень в образовании. Программа направленная на воспитание в ученике самостоятельности, <br> смелости, целеустремленности в достижение целей. А самое главное она индивидуальна, но в тоже время подходит <br> для каждого. Хотите, чтобы вам или вашему ребенку нравилось ходить на занятия?! Тогда, читайте подробней, <br> что такое «Мьюз».</p>
+    </div>
+
+    <div class="site-section">
+      <div class=" text-center">
+        <div class="row gx-5">
+          <div class="col">
+            <img src="{% static 'images/picture1.png' %}" alt="picture1" class="img-fluid">
+            <p class="strPicture1">Максимальное погружение и <br> увлеченность с первого занятия</p>
+          </div>
+          <div class="col">
+            <img src="{% static 'images/picture2.png' %}" alt="picture2" class="img-fluid">
+            <p class="strPicture1">Занятия в удобное время в <br> студии или у вас дома</p>
+          </div>
+          <div class="col">
+            <img src="{% static 'images/picture3.png' %}" alt="picture3" class="img-fluid">
+            <p class="strPicture1">Программа подходит для <br> любого возраста</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+{% endblock %}

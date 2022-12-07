@@ -1,0 +1,71 @@
+
+  .heading{
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.header{
+    padding-top: 20%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.item{
+
+    padding-top: 10%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.write_me{
+    padding-top: 18%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.padding_textarea{
+    padding-top: 8%;
+    padding-left: 24%;
+}
+
+.textarea{
+    resize: none;
+}
+
+.enter{
+    padding-top: 5%;
+    padding-left: 43%;
+}
+
+
+
